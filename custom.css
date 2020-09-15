@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 0 5px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navigation-contorl .btn {
+    color: #ffffff;
+    width: 100%;
+}
+
+.navigation-contorl .btn:hover{
+    color: #008000;
+    border-left: 4px solid #008000;
+}
+
+.img-thumbnail {
+    background-color: transparent;
+    border: transparent;
+}

@@ -1,0 +1,53 @@
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex: 1;
+}
+
+.head-menu{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.user-head{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.content {
+    display: flex;
+}
+
+.navigation {
+    background-color: #222326;
+    width: 25%;
+    height: 100vh;
+}
+
+.navigation-contorl {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid #000000;
+}
+
+.user-page {
+    width: 100%;
+}
+
+.playlist-menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.playlist{
+    display: flex;
+    flex: 1;
+}
