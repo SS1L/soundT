@@ -8,18 +8,82 @@ header {
     background-color: #000000;
     color: #ffffff;
 }
-
-.navigation-contorl .btn {
+.navigation-head {
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.navigation-control .btn {
     color: #ffffff;
     width: 100%;
 }
 
-.navigation-contorl .btn:hover{
+.navigation-control .btn:hover{
     color: #008000;
-    border-left: 4px solid #008000;
 }
 
 .img-thumbnail {
     background-color: transparent;
     border: transparent;
+}
+
+.dropdown-menu{
+    padding: .5rem .8rem !important;
+}
+
+.dropdown-menu .form-check{
+    display: flex;
+}
+
+.rounded {
+    width: 100%;
+}
+
+.popover-menu {
+    padding: .25rem 0;
+    display: flex;
+}
+
+.popover-menu .dropdown-item {
+    margin: 0;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popover-group {
+    border-bottom: 1px solid #131111;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+}
+.dropdown-item .h6 {
+    margin: 0;
+}
+
+.dropdown-item:hover {
+    background-color: #0de03b;
+}
+
+.small-image{
+    width: 30px;
+    height: 30px;
+}
+
+.connect-service {
+    display: flex;
+    text-align: center;
+}
+
+.service-image {
+    flex: 1;
+    padding: 15px 10px
+}
+
+.service-image .img-fluid{
+    width: 50%;
+}
+
+.user-playlist {
+    display: flex;
+    padding: 10px 20px;
 }

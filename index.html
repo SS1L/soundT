@@ -7,30 +7,23 @@
     <link rel="stylesheet" type="text/css" href="custom.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <div class="header">
             <div class="logo">
-                MusicT
+                <h6>
+                    MusicT
+                </h6>
             </div>
             <div class="head-menu">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Active</a>
+                        <a class="nav-link active" href="#">Help</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
@@ -62,31 +55,167 @@
     <div class="content">
         <div class="navigation">
             <div>
-                <img src="spotify.png" alt="..." class="img-thumbnail">
-                <img src="youtube.png" alt="..." class="img-thumbnail">
-                Youtube
-                Spotify
+                <div class="connect-service">
+                    <div class="service-image">
+                        <a href="#">
+                            <img src="yotube.svg" alt="..." class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="service-image">
+                        <a href="#">
+                            <img src="spotify.svg" alt="..." class="img-fluid">
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div>
-                Your Library
-                <div class="navigation-contorl">
+            <div class="navigation-group">
+                <div class='navigation-control'>
+                    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                        Transfer
+                    </button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Transfer</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation-control">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                        Synchronize
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Transfer</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class='navigation-control'>
+                    <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                        Platform to Platform
+                    </button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Transfer</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='navigation-group'>
+                <div class='navigation-head'>
+                    <h5>Your Library</h5>
+                </div>
+                <div class="navigation-control">
                     <!--<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-collection-play-fill"
                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
                             d="M1.5 14.5A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zm5.265-7.924A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848l-4-2.5zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z" />
                     </svg> -->
-                    <a class="btn" href="#" role="button">Playlist</a>
+
+                    <a class="btn" href="#" role="button">Playlist
+                        <div>
+                            <span class="badge badge-dark">4</span>
+                        </div>
+                    </a>
+
                 </div>
-                <div class="navigation-contorl">
-                    <a class="btn" href="#" role="button">Albums</a>
+                <div class="navigation-control">
+                    <a class="btn" href="#" role="button">Albums
+                        <div>
+                            <span class="badge badge-dark">0</span>
+                        </div>
+                    </a>
                 </div>
-                <div class="navigation-contorl">
-                    <a class="btn" href="#" role="button">Artists</a>
+                <div class="navigation-control">
+                    <a class="btn" href="#" role="button">Artists
+                        <div>
+                            <span class="badge badge-dark">2</span>
+                        </div>
+                    </a>
                 </div>
-                <div class="navigation-contorl">
-                    <a class="btn" href="#" role="button">Tracks</a>
+                <div class="navigation-control">
+                    <a class="btn" href="#" role="button">Tracks
+                        <div>
+                            <span class="badge badge-dark">231</span>
+                        </div>
+                    </a>
                 </div>
             </div>
+            <div class="navigation-group">
+                <div class="navigation-head">
+                    <h6>MY PLAYLIST</h6>
+                </div>
+                <div class="navigation-control">
+                    <a class="btn" href="#" role="button">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus-circle-fill"
+                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                        </svg>
+                        <div>
+                            New playlist
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="navigation-group">
+                <div class="navigation-head">
+                    <h6>ACTIVITY</h6>
+                </div>
+                <div class="navigation-control">
+                    <a class="btn" href="#" role="button">
+                        Recent transfers
+                    </a>
+                </div>
+            </div>
+
         </div>
         <div class="user-page">
             <div class="playlist-menu">
@@ -112,62 +241,136 @@
                     </button>
                 </div>
             </div>
-            <div>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <div class="user-action">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Info
                     </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#">Disabled</a>
-                            </li>
-                        </ul>
-                        <div>
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Dropdown button
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="popover-group">
+                            <div class="popover-menu">
+                                <div class="dropdown-item">
+                                    <p class="h6">All</p>
+                                    <div>
+                                        <span class="badge badge-dark">4</span>
+                                    </div>
                                 </div>
                             </div>
-                            <form class="form-inline my-2 my-lg-0">
-                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
-                                    aria-label="Search">
-                            </form>
+                            <div class="popover-menu">
+                                <div class="dropdown-item">
+                                    <p class="h6">Filtered</p>
+                                    <div>
+                                        <span class="badge badge-dark">4</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="popover-menu">
+                                <div class="dropdown-item">
+                                    <p class="h6">Youtube Music </p>
+                                    <div>
+                                        <span class="badge badge-dark">4</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="popover-menu">
+                                <div class="dropdown-item">
+                                    <p class="h6">Spotify </p>
+                                    <div>
+                                        <span class="badge badge-dark">4</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </nav>
+                </div>
+                <div class="playlist-fillter">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Platform
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <div class="form-check mb-2 mr-sm-2">
+                                <div>
+                                    <div>
+                                        <img src="youtube.png" class="rounded float-left" alt="...">
+                                    </div>
+                                    <div>
+                                        <label class="form-check-label" for="inlineFormCheck">
+                                            Youtube music
+                                        </label>
+                                    </div>
+                                    <div>
+                                        <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-check mb-2 mr-sm-2">
+                                <div>
+                                    <img src="spotify.png" class="img-circle" alt="...">
+                                </div>
+                                <div>
+                                    <label class="form-check-label" for="inlineFormCheck">
+                                        Spotify
+                                    </label>
+                                </div>
+                                <div>
+                                    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" class="form-control" aria-label="Small"
+                            aria-describedby="inputGroup-sizing-sm">
+                        <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2">
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search"
+                                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                                    <path fill-rule="evenodd"
+                                        d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                                </svg>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div>music</div>
+            <div class="user-playlist">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                </div>
+                <div class="small-image">
+                    <img src="yotube.svg" alt="..." class="img-thumbnail">
+                </div>
+                <div>
+                    <span>
+                        Youtube
+                    </span>
+                </div>
+                <div>
+                    <span>243(tracks)</span>
+                </div>
+            </div>
         </div>
     </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

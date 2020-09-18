@@ -27,13 +27,26 @@
 
 .navigation {
     background-color: #222326;
-    width: 25%;
+    width: 20%;
     height: 100vh;
 }
 
-.navigation-contorl {
-    border-top: 1px solid gray;
-    border-bottom: 1px solid #000000;
+.navigation-group {
+    margin-top: 10px;
+}
+
+.navigation-control {
+    border-top: 1px solid #868686;
+    border-bottom: 1px solid #363232;
+}
+
+.navigation-control:hover{
+    border-left: 4px solid green;
+}
+
+.navigation-control .btn {
+    display: flex;
+    justify-content: space-between;
 }
 
 .user-page {
@@ -43,11 +56,26 @@
 .playlist-menu {
     display: flex;
     align-items: center;
+    padding: 10px 20px;
     width: 100%;
-    padding: 0 20px;
+    background-color: #1b191f;
+    color: #fff;
+}
+
+.user-action {
+    display: flex;
+    padding: 5px 20px;
+}
+
+.user-action .dropdown {
+    flex: 1;
 }
 
 .playlist{
     display: flex;
     flex: 1;
+}
+
+.playlist-fillter {
+    display: flex;
 }
